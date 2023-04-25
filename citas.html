@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>VETERINARIA FELIZ</title>
+</head>
+<body>
+<nav>
+	<ul>
+		<li><a href="index.html"> INICIO </a></li>
+			<li><a href="mascotas.html"> MASCOTAS </a></li>
+			<li><a href="citas.html"> CITAS </a></li>
+			<li><a href="contacto.html"> CONTACTO </a></li>
+	</ul>
+</nav>
+<form action="conexion.php" method="POST">
+	<label><strong><u>Ingrese los datos para relizar una cita</u></strong></label><br>
+	<label for="NOMBRE" > Ingresa tu nombre: </label>
+	<input type="text" name="NOMBRE" placeholder="Nombre: "><br><br><br>
+	<label for="MASCOTA" > Ingresa el nombre de tu mascota: </label>
+	<input type="text" name="MASCOTA" placeholder="NOMBRE DE MASCOTA: "><br><br><br>
+	<label for="SEXO" > Ingresa el sexo de tu mascota: </label>
+	<input type="text" name="SEXO" placeholder="SEXO DE MASCOTA: "><br><br><br>
+	<label for="CONSULTA" > Motivo de consulta: </label>
+	<input type="text" name="CONSULTA" placeholder="MOTIVO DE CONSULTA"><br><br><br>
+	<label for="fecha" > Fecha de consulta: </label>
+	<input type="date" name="fecha"value="2023-01-01" min="2023-01-01" max="2030-12-31" placeholder="FECHA DE CITA "><br><br><br>
+	<label for="HORA" > Hora de consulta: </label>
+	<input type="time" name="HORA" placeholder="HORA DE CONSULTA: "><br><br><br>
+	<section class="bt">
+			<a href="index.html"><input type="submit" value="ENVIAR" name="op"></a>
+	</section>
+
+</form>
+
+	<section class="bt">
+		<center>
+			<a href="AgendaDeCitas.php"><input type="submit" value="Consultar Citas" name="op"></a>
+		</center>
+	
+	</section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<footer>
+		<div class="copy">
+			<p>TODOS LOS DERECHOS RESERVADOS</p>
+			<p>&copy;VETERINARIA FELIZ</p>
+		</div>
+		<div class="redes">
+			<a href="http://www.facebook.com" target="blank">facebook</a>
+			<a href="http://www.twitter.com" target="blank">twitter</a>
+			<a href="http://www.instagram.com" target="blank">instagram</a>
+		</div>
+	</footer>
+</body>
+</html>

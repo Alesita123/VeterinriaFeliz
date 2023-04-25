@@ -1,0 +1,193 @@
+*{margin: 0; border: 0;}
+body{background: linear-gradient(to bottom, #fff,#87CEEB); position: relative;}
+nav{background-color: #transparent; padding: 30px;}
+li{list-style: none; display: inline-block;}
+a{text-decoration: none; color: #585858; padding: 0px 20px}
+h1{color: #0B2F3A; font-size: 50px; text-align-last: center; font-family: 'Merriweather', serif; }
+.contenedor{width: 100%; margin: auto; display: flex; justify-content: space-between; flex: 1 1 100%}
+img{width: 500px; display: inline-block;}
+h2{text-align: center; margin: auto; background.color: transparent; width: 350px; padding: 15px; font-family: 'Dancing Scrip',cursive; font-size: 2em}
+div.imagenes{
+	width: 40%;
+	right: 40;
+	left: 0;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+div.imagenes img{
+
+	width: 40%;
+	height: 40%;
+	margin: 15px;
+
+}
+div.perr{
+	flex: 2 1 100% ;
+}
+div.Tperritos{
+	text-align: center;
+	font-family: 'Merriweather';
+
+}
+div.Tperritos section{
+	color: #000000;
+	text-align: center;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px 0;
+	font-family: 'Merriweather';
+}
+form{
+	color: #000000;
+	text-align: center;
+	border: 3px solid #000000;
+	border-radius: 7px;
+	padding: 10px;
+	margin: 10px 0;
+	font-family: 'Merriweather';
+}
+label{
+	padding: 5px;
+	border-radius: 7px;
+	font-size: 20px;
+	font-family: 'Merriweather';
+}
+input{
+	border: 4em #000;
+	border-radius: 7px;
+	font-size: 20px;
+	font-family: 'Merriweather';
+
+}
+section.bt input{
+	text-align: center;
+	color: #000;
+	font-size: 2em;
+	background-color: transparent;
+}
+section.bt input:hover{
+	color: #FFF;
+}
+footer{
+width: 100%;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+align-content: center;
+
+bottom: 0;
+background-color: transparent;
+padding: 20px 10px;
+font-size: 20px;
+font-family: 'Merriweather';
+}
+footer div.copy p{
+	padding: 5px 5px;
+	font-size: 20px;
+}
+footer div.redes a{
+	color: white;
+	padding: 0px 12px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+div.noticias{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+div.noticias div{
+	width: 300px;
+}
+div.noticias div div.desc{
+	background-color: #CECEF6;
+	padding: 10px;
+}
+div.noticias div img{
+	width: 100%;
+	position: center;
+}
+div.noticias div h1{
+	font-size: 30px;
+	color: #CECEF6;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+div.cita button{
+	color: #000;
+	font-size: 1em;
+	background-color: #fff;
+	border: 1em;
+	border-radius: 1em; 
+	color: #000;
+}
+div.cita button:hover{
+	color: #CECEF6;
+}
+div.cita{
+	text-align: center;
+	background-color: transparent;
+	font-size: 3em;
+	font-family: 'Merriweather', serif;
+
+}
+div.opinion button{
+	text-align: center;
+	color: #000;
+	font-size: 1em;
+	background-color: #fff;
+	border: 1em;
+	border-radius: 1em; 
+	color: #000;
+}
+div.opinion button:hover{
+	color: #CECEF6;
+}
+div.opinion{
+	text-align: center;
+	background-color: transparent;
+	font-size: 3em;
+	font-family: 'Merriweather', serif;
+
+}
+div.consultas{
+	color: #000000;
+	text-align: center;
+	border: 3px solid #000000;
+	border-radius: 7px;
+	padding: 10px;
+	margin: 10px 0;
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+}
+div.consultas input{
+	border: 3px solid #000000;
+	border-radius: 7px;
+	padding: 10px;
+	margin: 10px 0;
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	background-color: transparent;
+}
+div.consultas input:hover{
+	color: #CECEF6;
+}
+div.contenedor img:hover{
+	filter: blur(10px);
+
+}
+nav.nav ul li:hover{
+	background-color: #E0E6F8;
+}
+div.noticias div img:hover{
+	filter: contrast(70%);
+}
